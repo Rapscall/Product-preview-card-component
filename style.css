@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+#card{
+    margin: 200px auto;
+    min-width: 700px;
+    
+    display: flex;
+    justify-content: center;
+    
+    border-radius: 15px;
+    
+    overflow: hidden;
+    
+
+    
+    
+}
+
+img{
+    height: auto;
+    
+    width: 400px;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+    
+    
+
+}
+
+#text{
+    padding: 35px;
+    background-color:hsl(0, 0%, 100%) ;
+    width: 400px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    
+    
+}
+
+.line-through{
+    text-decoration: line-through;
+    margin-left: 30px;
+    align-self: center;
+    display: inline-block;
+    color:hsl(228, 12%, 48%);
+}
+
+#perfume{
+    font-family: 'Montserrat',sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#text h1{
+    font-family: 'Fraunces',sans-serif;
+    line-height: 42px;
+    font-size: 40px;
+    margin-top: 40px;
+    
+    
+}
+
+#longtext{
+    margin-top: 20px;
+    color: hsl(228, 12%, 48%);
+    font-size: 16px;
+    font-family: 'Montserrat',sans-serif;
+    line-height: 20px;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+
+#text div{
+    display: flex;
+    
+}
+
+.price{
+    color: hsl(158, 36%, 37%);
+    font-size: 40px;
+    font-family: 'Fraunces',sans-serif;
+}
+
+button{
+    margin: 0 auto;
+    width: 90%;
+    padding: 20px 20px;
+    background-color: hsl(158, 36%, 37%);
+    color: aliceblue;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Montserrat',sans-serif;
+    margin-top: 30px;
+    font-weight: 800;
+
+}
+
+@media only screen and (max-width:375px) {
+    #card {
+      flex-direction: column;
+      margin: 50px auto;
+      min-width: 375px;
+    }
+    #text h1{
+        padding-top: 0px;
+    }
+    #longtext{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    img{
+        height: 350px;
+    }
+  }
+
+
+
+
